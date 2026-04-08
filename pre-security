@@ -1,0 +1,32 @@
+# TryHackMe Journal
+
+---
+
+## Careers in Cyber
+**Difficulty:** Easy  |  **Category:** Career
+
+### What I learned
+Explored different cyber career paths — red team, blue team, pentesting, forensics, malware analysis. Helped map out where different skills lead.
+
+### Notes
+Career quiz result: Penetration Tester
+
+---
+
+## Defensive Security Intro
+**Difficulty:** Easy  |  **Category:** Defensive Security
+
+### What I learned
+Covered the blue team side — SOC roles, threat intelligence, DFIR, and SIEM. Defensive security is about preventing, detecting, and responding to attacks before and after they happen.
+
+---
+
+## Offensive Security Intro
+**Difficulty:** Easy  |  **Category:** Offensive Security
+
+**Tools used:** dirb
+
+### What I learned
+Learned how offensive security works by hacking a fake bank site. Used dirb to brute-force hidden directories and found a page that wasn't linked publicly. Core idea: think like an attacker to find what defenders missed.
+
+---
