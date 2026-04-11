@@ -1,6 +1,22 @@
 # TryHackMe Journal
 
-> 11 rooms completed
+> 13 rooms completed
+
+---
+
+## Inside a Computer System
+**Difficulty:** Easy  |  **Category:** General
+
+### What I learned
+Learned the different components of a computer including CPU, RAM, storage, and motherboard. Also covered the startup/boot process and how a computer goes from powered off to a running OS, including the role of the BIOS/UEFI and bootloader.
+
+---
+
+## Putting it All Together
+**Difficulty:** Easy  |  **Category:** Web
+
+### What I learned
+Saw how everything connects when you load a website. DNS finds the IP, browser sends an HTTP request, server sends back the page, browser renders it. Ties together everything from the previous modules.
 
 ---
 
@@ -8,7 +24,7 @@
 **Difficulty:** Easy  |  **Category:** Web
 
 ### What I learned
-Learned how websites are built and delivered. HTML structures the page, JavaScript adds interactivity and runs in the browser. HTML injection is a vulnerability where unsanitized user input gets rendered as HTML — attackers can inject their own content into the page.
+Learned how websites are built and delivered. HTML structures the page, JavaScript adds interactivity and runs in the browser. HTML injection is a vulnerability where unsanitized user input gets rendered as HTML and attackers can inject their own content into the page.
 
 ---
 
@@ -16,7 +32,7 @@ Learned how websites are built and delivered. HTML structures the page, JavaScri
 **Difficulty:** Easy  |  **Category:** Networking
 
 ### What I learned
-HTTP is how browsers communicate with web servers. HTTPS adds TLS encryption. Methods: GET (request data), POST (send data), PUT (update), DELETE (remove). Status codes: 200 OK, 301 redirect, 404 not found, 403 forbidden, 500 server error. Headers carry metadata like browser info, auth tokens, and cookies. Cookies keep you logged in since HTTP is stateless — server stores a session ID in your browser. Stolen cookies = session hijacking.
+HTTP is how browsers talk to servers. HTTPS encrypts it. GET requests data, POST sends it, PUT updates it, DELETE removes it. Status codes tell you what happened: 200 is good, 404 is not found, 403 is no permission, 500 is server broke. Headers carry extra info like cookies and auth tokens. Cookies keep you logged in since HTTP doesn't remember you. Stolen cookies let attackers log in as you.
 
 ---
 
@@ -32,7 +48,7 @@ DNS converts domain names to IP addresses. Query goes through Recursive DNS, Roo
 **Difficulty:** Easy  |  **Category:** Networking
 
 ### What I learned
-Learned how networks get extended and secured. Port forwarding lets inside devices be reachable from the internet. Firewalls filter traffic by rules — stateful tracks the whole connection, stateless checks individual packets. VPNs securely connect networks over the internet and encrypt traffic. Subnetting divides a network into smaller segments for organization and security.
+Learned how networks get extended and secured. Port forwarding lets inside devices be reachable from the internet. Firewalls filter traffic by rules where stateful tracks the whole connection and stateless checks individual packets. VPNs securely connect networks over the internet and encrypt traffic. Subnetting divides a network into smaller segments for organization and security.
 
 ---
 
@@ -40,7 +56,7 @@ Learned how networks get extended and secured. Port forwarding lets inside devic
 **Difficulty:** Easy  |  **Category:** Networking
 
 ### What I learned
-Learned how data is broken into packets and frames. Frames operate at layer 2 using MAC addresses within a LAN, packets operate at layer 3 using IP addresses across networks. TCP uses a three-way handshake (SYN, SYN-ACK, ACK) to establish connections and guarantees delivery. UDP is faster but doesn't check if data arrived — used for streaming and gaming.
+Learned how data is broken into packets and frames. Frames operate at layer 2 using MAC addresses within a LAN, packets operate at layer 3 using IP addresses across networks. TCP uses a three-way handshake (SYN, SYN-ACK, ACK) to establish connections and guarantees delivery. UDP is faster but doesn't check if data arrived and is used for streaming and gaming.
 
 ---
 
@@ -48,10 +64,7 @@ Learned how data is broken into packets and frames. Frames operate at layer 2 us
 **Difficulty:** Easy  |  **Category:** Networking
 
 ### What I learned
-Learned the 7 OSI layers and how data travels through them. Each layer has a specific job — Physical handles raw signals, Data Link uses MAC addresses, Network uses IP addresses, Transport breaks data into chunks, Session manages connections, Presentation handles encryption, Application is what the user interacts with. Data gets encapsulated going down and decapsulated going up.
-
-### Notes
-Mnemonic: Please Do Not Throw Sausage Pizza Away
+7 layers that describe how data moves across a network. Each layer has a job. Physical is the raw signal, Data Link uses MAC addresses, Network uses IP addresses, Transport breaks data into chunks, Session manages the connection, Presentation handles encryption, Application is what you interact with. Data gets wrapped going down and unwrapped going up.
 
 ---
 
@@ -75,10 +88,7 @@ Learned the basics of how devices communicate on a network. IP addresses identif
 **Difficulty:** Easy  |  **Category:** Career
 
 ### What I learned
-Explored different cyber career paths — red team, blue team, pentesting, forensics, malware analysis. Helped map out where different skills lead.
-
-### Notes
-Career quiz result: Penetration Tester
+Explored different cyber career paths including red team, blue team, pentesting, forensics, and malware analysis. Helped map out where different skills lead.
 
 ---
 
@@ -86,7 +96,7 @@ Career quiz result: Penetration Tester
 **Difficulty:** Easy  |  **Category:** Defensive Security
 
 ### What I learned
-Covered the blue team side — SOC roles, threat intelligence, DFIR, and SIEM. Defensive security is about preventing, detecting, and responding to attacks before and after they happen.
+Covered the blue team side including SOC roles, threat intelligence, DFIR, and SIEM. Defensive security is about preventing, detecting, and responding to attacks before and after they happen.
 
 ---
 
