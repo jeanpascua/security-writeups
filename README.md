@@ -1,19 +1,23 @@
-# TryHackMe Writeups
+# Security Writeups
 
-Personal notes from my TryHackMe learning path. Working toward the **Jr Penetration Tester** certification and documenting what I learn along the way.
+Personal notes documenting my security learning — TryHackMe rooms and homelab lab exercises. Working toward the **Jr Penetration Tester** certification.
 
-These aren't walkthroughs or flag giveaways. They're concept notes, key commands, and what actually clicked for me in each room.
+These aren't walkthroughs or flag giveaways. They're concept notes, key commands, and what actually clicked for me.
 
-**Profile:** [tryhackme.com/p/Jegz](https://tryhackme.com/p/Jegz) | Top 20% | 34+ rooms completed
-
----
-
-## Path
-
-Pre-Security -> Cyber Security 101 -> **Jr Penetration Tester** (target)
+**TryHackMe:** [tryhackme.com/p/Jegz](https://tryhackme.com/p/Jegz) | Top 20% | 34+ rooms completed
 
 ---
 
-## Writeups
+## TryHackMe
 
-- [Pre-Security](./pre-security.md)
+Path: Pre-Security → Cyber Security 101 → **Jr Penetration Tester** (target)
+
+- [Pre-Security](./tryhackme/pre-security.md)
+
+---
+
+## Homelab Labs
+
+Exercises run against Metasploitable 2 on my own Proxmox homelab using Kali Linux.
+
+- [vsftpd 2.3.4 Backdoor — CVE-2011-2523](./homelab-labs/vsftpd-backdoor.md)
